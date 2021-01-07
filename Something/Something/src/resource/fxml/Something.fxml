@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="myAnch" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Something">
+
+   <left>
+           <HBox layoutY="50.0" prefHeight="100.0" prefWidth="200.0" >
+               <Label text="X:" BorderPane.alignment="TOP_RIGHT" />
+                   <Label fx:id="posdex" />
+               <Label text=" "></Label>
+                   <Label  text="Y:" BorderPane.alignment="TOP_RIGHT" />
+                   <Label fx:id="posdey"/>
+               <Label text=" "></Label>
+                    <Label text="Hp:" BorderPane.alignment="TOP_RIGHT" />
+                    <Label fx:id="life" />
+                   <Label text=" "></Label>
+                   <Label text="Score:" BorderPane.alignment="CENTER_RIGHT" />
+                   <Label fx:id="score"></Label>
+
+           </HBox>
+
+   </left>
+</BorderPane>

@@ -1,0 +1,10 @@
+.root {
+    -fx-background-color: #1d1d1d;
+     -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+     -fx-background-image: url("../image/biggerfullbackgroundwithtitle.png");
+}
+
+.button{
+ -fx-background-color: #1d1d1d;
+}
